@@ -18,6 +18,8 @@ This is based on the separated demofusion and tilevae from the previously develo
 
 ℹ Due to differences in implementation details, parameters such as c1, c2, c3 and sigma can refer to the [demofusion](https://ruoyidu.github.io/demofusion/demofusion.html), but may not be entirely effective sometimes. If there are blurred images, it is recommended to increase c3 and reduce Sigma.
 
+ℹThere is a slight difference in the results of Mixture mode, but the inference time of UNet will increase by about 50%. It is not recommended to enable it under normal circumstances
+
 ![demo-example](https://github.com/Jaylen-Lee/image-demo/blob/main/example.png?raw=true)
 
 #### Example: txt2img, 1024 * 1024 image 3x upscale
